@@ -1,7 +1,7 @@
 
 public class Moto extends Vehiculo{
 	
-	protected int cilindrada;
+	private int cilindrada;
 	
 	public Moto(String marca, String modelo, int cilindrada, double precio) {
 		super(marca, modelo, precio);
