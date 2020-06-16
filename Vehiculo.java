@@ -2,9 +2,9 @@ import java.text.DecimalFormat;
 
 public abstract class Vehiculo implements Comparable<Vehiculo>, VehiculosLista{
 	
-	protected final String marca, modelo;
-	protected double precio;
-	protected DecimalFormat df = new DecimalFormat("###,###.00");
+	private final String marca, modelo;
+	private double precio;
+	private DecimalFormat df = new DecimalFormat("###,###.00");
 	
 	public Vehiculo(String marca, String modelo, double precio) {
 		this.marca = marca;
